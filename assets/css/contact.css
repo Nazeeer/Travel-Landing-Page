@@ -1,0 +1,81 @@
+:root {
+  --main-color: #012169;
+  --second-color: #009739;
+  --hover-color: #d1be40;
+}
+
+.contact {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+  margin-top: 80px;
+}
+
+.contact .section__title,
+.contact .section__subtitle {
+  text-align: center;
+  color: var(--main-color);
+}
+
+.contact__content {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.contact__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--main-color);
+}
+
+.contact__data {
+  margin-bottom: 10px;
+}
+
+.contact__data-title {
+  color: var(--main-color);
+}
+
+.contact__data-info {
+  font-size: 18px;
+}
+
+.contact__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contact__button:hover {
+  color: var(--hover-color);
+  transition: all 0.5s ease;
+}
+
+.contact__form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.contact__button[type="submit"] {
+  background-color: var(--second-color);
+  color: white;
+}
+
+.contact__button[type="submit"]:hover {
+  background-color: var(--hover-color);
+  color: var(--main-color);
+}
+
+.form-label {
+  color: var(--main-color);
+}

@@ -1,0 +1,29 @@
+:root {
+    --main-color: #012169;
+    --second-color: #009739;
+    --hover-color: #d1be40;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+.blog {
+    margin-top: 160px;
+}
+
+.blog-title {
+    font-size: 60px;
+    font-weight: 600;
+    background-image: linear-gradient(to right,
+            #012169,
+            rgba(22, 54, 128, 0.651));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.blog-pra {
+    font-size: 20px;
+    font-weight: 500;
+}
